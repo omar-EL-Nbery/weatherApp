@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather APP</title>
+    <!-- Google Fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Background Image -->
+    <div class="background-image"></div>
+
+    <!-- Container -->
+    <div class="container" id="container">
+      <!-- City Name -->
+      <div class="city-name">
+        <h1>London</h1>
+        <p>"If you are in London it's probably raining."</p>
+      </div>
+
+      <!-- Weather Information -->
+      <div class="weather">
+        <p>Low</p>
+        <div id="weather-icon">
+          <img src="./images/cloud.png" alt="Cloud" />
+          <p>// Cloudy</p>
+          <p>23</p>
+        </div>
+        <p>High</p>
+      </div>
+
+      <!-- Static -->
+      <div class="static">
+        <div class="left">
+          <div class="days-forecast">
+            <div class="day">
+              <h5>Tue</h5>
+              <img src="./images/rainy.png" alt="Rainy" />
+              <!--lowest and heigst -->
+              <div class="dgress">
+                <p>22</p>
+                <p>10</p>
+              </div>
+            </div>
+            <div class="day">
+              <h5>Tue</h5>
+              <img src="./images/rainy.png" alt="Rainy" />
+              <!--lowest and heigst -->
+              <div class="dgress">
+                <p>22</p>
+                <p>10</p>
+              </div>
+            </div>
+            <div class="day">
+              <h5>Tue</h5>
+              <img src="./images/rainy.png" alt="Rainy" />
+              <!--lowest and heigst -->
+              <div class="dgress">
+                <p>22</p>
+                <p>10</p>
+              </div>
+            </div>
+            <div class="day">
+              <h5>Tue</h5>
+              <img src="./images/rainy.png" alt="Rainy" />
+              <!--lowest and heigst -->
+              <div class="dgress">
+                <p>22</p>
+                <p>10</p>
+              </div>
+            </div>
+            <div class="day">
+              <h5>Tue</h5>
+              <img src="./images/rainy.png" alt="Rainy" />
+              <!--lowest and heigst -->
+              <div class="dgress">
+                <p>22</p>
+                <p>10</p>
+              </div>
+            </div>
+            <div class="day">
+              <h5>Tue</h5>
+              <img src="./images/rainy.png" alt="Rainy" />
+              <!--lowest and heigst -->
+              <div class="dgress">
+                <p>22</p>
+                <p>10</p>
+              </div>
+            </div>
+            <!-- Add more days forecast here -->
+          </div>
+          <div class="wind-info">
+            <div class="wind-per">
+              <h4>Current</h4>
+              <p>Humidty: 47%</p>
+              <p>Visbilty: Moderats</p>
+              <p>Chanse of Rain: 70%</p>
+              <p>Preception: 4mm</p>
+            </div>
+            <div class="wind-direction">
+              <img src="./images/sun.png" alt="" width="50rem" />
+              <div class="text">
+                <p>wind-direction: SW</p>
+                <p>Wind Speead: 10</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Clock -->
+
+        <div class="clock">
+          <img src="./images/cloud.png" alt="Clock" />
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+  </body>
+</html>
